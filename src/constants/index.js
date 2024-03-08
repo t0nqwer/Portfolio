@@ -38,10 +38,10 @@ export const navLinks = [
     id: "work",
     title: "Work",
   },
-  {
-    id: "projects",
-    title: "projects",
-  },
+  // {
+  //   id: "projects",
+  //   title: "projects",
+  // },
 ];
 
 const services = [
@@ -100,22 +100,22 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [

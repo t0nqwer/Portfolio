@@ -3,7 +3,7 @@ import { moutain } from "../../assets";
 
 const Moutain = () => {
   return (
-    <div className="absolute bottom-0 w-full h-screen mx-auto z-[-1] ">
+    <div className="absolute bottom-0 w-full md:h-screen mx-auto z-[-10] ">
       <img
         src={moutain}
         alt="moutain"

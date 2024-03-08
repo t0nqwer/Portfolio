@@ -11,9 +11,10 @@ import { styles } from "../style";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
+import Moutain from "./canvas/Moutain";
+import { StarsCanvas, StarsCanvasSmall } from "./canvas";
 
 const ExperienceCard = ({ experience }) => {
-  console.log(experience);
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -75,7 +76,7 @@ const Experience = () => {
         </h2>
       </motion.div>
 
-      <div className="flex flex-col mt-20">
+      <div className="z-10 flex flex-col mt-20">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard
@@ -84,6 +85,10 @@ const Experience = () => {
             />
           ))}
         </VerticalTimeline>
+      </div>
+      <StarsCanvasSmall />
+      <div className="relative z-0 ">
+        <StarsCanvas />
       </div>
     </>
   );

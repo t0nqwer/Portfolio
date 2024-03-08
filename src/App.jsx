@@ -9,7 +9,6 @@ import {
   Feedbacks,
   Contact,
   EarthCanvas,
-  BallCanvas,
   ComputersCanvas,
   StarsCanvas,
 } from "./components";
@@ -19,22 +18,21 @@ import { StarsCanvasSmall } from "./components/canvas";
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-primary  bg-gradient-to-t from-[#F299A9] via-[#8D4C7C] to-[#061126]  via-30% to-70%">
-        <div className="relative z-50  bg-gradient-to-t from-[#F299A9] via-[#8D4C7C] to-[#061126]  via-30% to-70% ">
+      <div className="relative z-0 bg-primary  bg-gradient-to-t from-[#F299A9] via-[#8D4C7C] to-[#0A0617]  via-30% to-70%">
+        <div className="relative z-50 ">
           <Navbar />
           <Hero />
-          <StarsCanvas />
+          {/* <StarsCanvas /> */}
         </div>
         <About />
-        <Experience />
         <Tech />
+        <Experience />
         {/* <Works /> */}
 
-        <StarsCanvasSmall />
-        <div className="relative z-0 ">
-          {/* <Contact /> */}
+        {/* <StarsCanvasSmall /> */}
+        {/* <div className="relative z-0 ">
           <StarsCanvas />
-        </div>
+        </div> */}
         <Moutain />
       </div>
     </BrowserRouter>

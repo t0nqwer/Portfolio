@@ -1,4 +1,3 @@
-import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 import { motion } from "framer-motion";
@@ -39,7 +38,6 @@ const Tech = () => {
       {technologies.map((technology) => (
         <div className="w-20 h-20 select-none " key={technology.name}>
           <ServiceCard icon={technology.icon} />
-          {/* <BallCanvas icon={technology.icon} /> */}
         </div>
       ))}
     </div>
